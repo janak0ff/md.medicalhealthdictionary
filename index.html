@@ -123,6 +123,21 @@
 			<p></p>
 		</div>
 		<!-- ------------------- end ----------------  -->
+		<!-- ------------------- pop up windows box -------------- -->
+		<div id="popoutaddinfo" class="window-container">
+			<div class="top">
+				<span class="dot" style="background:#ED594A;"></span>
+				<span class="dot" style="background:#FDD800;"></span>
+				<span class="dot" style="background:#5AC05A;"></span>
+				<span class="close-btns" onclick="this.parentElement.parentElement.style.display='none';"> &times; </span>
+			</div>
+			<div class="content">
+				<p>
+					Please wait for the video to load. Fetching all the videos from the server takes a while..&#9996;
+				</p>
+			</div>
+		</div>
+		<!-- ----------------- end --------------  -->
 		<!-- ------------------- pop up windows box on Right click -------------- -->
 		<div class="window-containerpop" draggable="true">
 			<div class="top" onclick="this.parentElement.style.display='none';">
@@ -586,5 +601,10 @@
 		<script src="./js/owl.carousel.min.js"></script>
 		<script src="./js/jquery.magnific-popup.min.js"></script>
 		<script src="https://kit.fontawesome.com/a7d3f41661.js" crossorigin="anonymous"></script>
+		<script>
+			setTimeout(() => {
+					   document.querySelector(".window-container").style.display = "none";
+				}, 20000);
+		</script>
 	</body>
 </html>
