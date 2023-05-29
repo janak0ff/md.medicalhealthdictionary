@@ -6607,22 +6607,11 @@ div [class="media-body"]>h6 {
 
 #google_translate_element {
 	position: absolute !important;
-	width: 56px !important;
+	width: 44px !important;
 	bottom: 20% !important;
 	overflow: hidden !important;
 	height: 40px !important;
 }
-
-/* .navbar ul li .sub-menu>li[id="glanguage"] {
-	position: absolute;
-	top: 0;
-	overflow: hidden;
-	background-color: white;
-	height: 30px !important;
-	-webkit-box-shadow: 0em 0.063em 1.875em 0em rgb(36 38 43 / 10%);
-	-moz-box-shadow: 0em 0.063em 1.875em 0em rgba(36, 38, 43, 0.10);
-	box-shadow: 0em 0.063em 1.875em 0em rgb(36 38 43 / 10%);
-} */
 
 .goog-te-combo {
 	opacity: 0.000001 !important;
@@ -6632,10 +6621,6 @@ div [class="media-body"]>h6 {
 	margin-right: 0px !important;
 	padding: 20px !important;
 }
-
-
-
-
 
 /* ---------------------- responsive all iframe -----------------  */
 .iframecontainer {
@@ -6657,3 +6642,7 @@ div [class="media-body"]>h6 {
 }
 
 /* ----------------------- end ------------------------- */
+
+.menu-right{
+	margin-left: 20px;
+}
