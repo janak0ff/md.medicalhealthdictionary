@@ -91,6 +91,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet" />
 		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet" />
 		<link rel="stylesheet" type="text/css" href="./css/stylesD.css" />
+		<script src="https://kit.fontawesome.com/a7d3f41661.js" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
@@ -437,7 +438,7 @@
 									const videoLink = document.createElement('div');
 									videoLink.classList.add('playerVdo');
 
-									videoLink.innerHTML = `<video controls>
+									videoLink.innerHTML = `<video controls controlsList="nodownload">
      														 <source src="${item.VideoURL}" type="video/mp4">
       														</video>`
 
@@ -600,7 +601,7 @@
 		<script src="./js/bootstrap.min.js"></script>
 		<script src="./js/owl.carousel.min.js"></script>
 		<script src="./js/jquery.magnific-popup.min.js"></script>
-		<script src="https://kit.fontawesome.com/a7d3f41661.js" crossorigin="anonymous"></script>
+
 		<script>
 			setTimeout(() => {
 					   document.querySelector(".window-container").style.display = "none";
